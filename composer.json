@@ -1,0 +1,22 @@
+{
+    "name": "nueko/authist",
+    "description": "Laravel Authentication Extras",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eko Eryanto",
+            "email": "ekoeryanto@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Authist\\": "src/"
+        }
+    },
+    "prefer-stable": true
+
+}
