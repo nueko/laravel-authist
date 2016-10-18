@@ -4,7 +4,7 @@ namespace Authist\Traits;
 
 use Illuminate\Http\Request;
 
-trait ThrottleAttempts
+trait Throttle
 {
     /**
      * Determine if the user has too many failed login attempts.
